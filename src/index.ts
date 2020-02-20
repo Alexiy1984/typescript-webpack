@@ -26,7 +26,6 @@ for (let i = 0; i < 10 ; i++) {
 
 function asyncMethod(callBack: any) {
   setTimeout(() => {
-    console.log("Async Callback");
     callBack();
   }, 10000);
 }
